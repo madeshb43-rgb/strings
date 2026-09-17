@@ -1,0 +1,45 @@
+--Strings in Python--
+According to your uploaded lecture, a string is a data type that stores a sequence of characters.
+Strings are written inside single (' '), double (" "), or triple quotes
+1. String Definition
+String: A string is a sequence of characters such as letters, numbers, spaces, and symbols.
+name = "Madesh"
+city = 'Mandya'
+print(name)
+print(city)
+--Types of Strings--
+----1. Single-line String
+A string written in a single line using single or double quotes.
+name = "Madesh"
+course = 'Python'
+print(name)
+print(course)
+----2. Multi-line String
+A string that contains multiple lines. It can be written using triple quotes.
+message = """Hello
+My name is Madesh
+I am learning Python"""
+print(message)
+--Basic String Operations--
+-----1. Concatenation
+Concatenation means joining two or more strings using the + operator.
+Your lecture gives the example "hello" + "world" → "helloworld".
+first = "Hello"
+second = "World"
+result = first + second
+print(result)
+-----2. Finding Length of String
+The len() function returns the number of characters in a string.
+name = "Madesh"
+print(len(name))
+String Indexing
+---Indexing means accessing individual characters of a string using their position.
+Python indexing starts from 0. For example, in "Apna_College", str[0] is 'A' and str[1] is 'p'.
+name = "Madesh"
+print(name[3])
+print(name[1])
+print(name[2])
+----String Slicing
+Slicing is used to access a part of a string.
+name = "Madesh"
+print(name[1:4])
